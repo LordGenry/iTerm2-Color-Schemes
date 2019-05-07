@@ -14,7 +14,7 @@
   - [Xfce Terminal color schemes](#xfce-terminal-color-schemes)
   - [FreeBSD vt(4) color schemes](#freebsd-vt-color-schemes)
   - [Previewing color schemes](#previewing-color-schemes)
-
+  - [MobaXterm color schemes](#mobaxterm-color-schemes)
 ## Intro
 This is a set of color schemes for iTerm (aka iTerm2). Screenshots below and in the [screenshots](screenshots/) directory.
 
@@ -876,6 +876,9 @@ more information.
 ### Primary
 ![Screenshot](screenshots/primary.png)
 
+### Andromeda
+![Screenshot](screenshots/andromeda.png)
+
 ## Credits
 The schemes Novel, Espresso, Grass, Homebrew, Ocean, Pro, Man Page, Red Sands, and Terminal Basic are ports of the schemes of the same name included with the Mac Terminal application. All of Terminal's schemes have now been ported, with the exception of "Solid Colors" (random backgrounds, which iTerm doesn't support) and "Aerogel" (which is hideous).
 
@@ -1103,6 +1106,8 @@ The Unikitty theme was created by [jakebathman](https://github.com/jakebathman)
 
 The Primary theme was created by [jayanthkoushik](https://github.com/jayanthkoushik) based on [Google's vim colorscheme](https://github.com/google/vim-colorscheme-primary).
 
+The Andromeda theme was created by [memije](https://github.com/memije) based on [EliverLara](https://github.com/EliverLara/)'s [Andromeda](https://marketplace.visualstudio.com/items?itemName=EliverLara.andromeda) VS Code theme.
+
 If there are other color schemes you'd like to see included, drop me a line!
 
 ## Extra
@@ -1258,6 +1263,9 @@ Copy the `colorschemes` folder to `~/.local/share/xfce4/terminal/` and restart T
 ### FreeBSD vt color schemes
 Append your favourite theme from `freebsd_vt/` to `/boot/loader.conf`
 or `/boot/loader.conf.local` and reboot.
+
+### MobaXterm color schemes
+Copy the theme content form `mobaxterm/` and paste the content to your `MobaXterm.ini` in the corresponding place. (`[Colors]`)
 
 ### Previewing color schemes
 
